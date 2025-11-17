@@ -7,10 +7,12 @@ import HomePage from './pages/HomePage';
 import ProjectPage from './pages/ProjectPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import ScrollToTop from './components/ScrollToTop';
 
 function App(): React.JSX.Element {
   return (
     <HashRouter>
+      <ScrollToTop />
       <div className="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 min-h-screen font-sans flex flex-col transition-colors duration-300">
         <Navbar />
         <main className="flex-grow">

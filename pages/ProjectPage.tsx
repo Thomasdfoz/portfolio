@@ -1,5 +1,5 @@
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { PROJECTS } from '../constants';
 import { Project } from '../types';
@@ -10,10 +10,6 @@ const ProjectPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const project = PROJECTS.find(p => p.id === id);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [id]);
 
   if (!project) {
     return (
