@@ -15,9 +15,9 @@ function App(): React.JSX.Element {
         <Navbar />
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<AboutPage />} />
+            <Route path="/trabalhos" element={<HomePage />} />
             <Route path="/project/:id" element={<ProjectPage />} />
-            <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>

@@ -24,13 +24,13 @@ const Navbar: React.FC = () => {
                   className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`}
                   end
                 >
-                  Trabalhos
+                  Sobre
                 </NavLink>
                 <NavLink 
-                  to="/about" 
+                  to="/trabalhos" 
                   className={({ isActive }) => `${navLinkClasses} ${isActive ? activeNavLinkClasses : ''}`}
                 >
-                  Sobre
+                  Trabalhos
                 </NavLink>
                 <NavLink 
                   to="/contact" 

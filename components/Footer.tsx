@@ -14,8 +14,8 @@ const Footer: React.FC = () => {
             </div>
             <div className="flex items-center space-x-6">
                 <nav className="hidden sm:flex space-x-6 text-sm text-gray-500 dark:text-gray-400 font-medium">
-                    <Link to="/" className="hover:text-gray-900 dark:hover:text-white transition-colors">Trabalhos</Link>
-                    <Link to="/about" className="hover:text-gray-900 dark:hover:text-white transition-colors">Sobre</Link>
+                    <Link to="/" className="hover:text-gray-900 dark:hover:text-white transition-colors">Sobre</Link>
+                    <Link to="/trabalhos" className="hover:text-gray-900 dark:hover:text-white transition-colors">Trabalhos</Link>
                     <Link to="/contact" className="hover:text-gray-900 dark:hover:text-white transition-colors">Contato</Link>
                 </nav>
                 <div className="flex space-x-6">

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const skills = {
   'Design': ['UI/UX Design', 'Design Systems', 'Prototipagem', 'Branding'],
@@ -43,6 +44,12 @@ const AboutPage: React.FC = () => {
                 </p>
               </div>
             </div>
+          </div>
+
+          <div className="mt-16 text-center">
+            <Link to="/trabalhos" className="inline-block bg-gray-800 text-white dark:bg-gray-200 dark:text-gray-900 font-medium py-3 px-8 rounded-lg hover:bg-gray-900 dark:hover:bg-white transition-colors text-lg">
+              Veja meus projetos
+            </Link>
           </div>
 
           <div className="mt-20">
