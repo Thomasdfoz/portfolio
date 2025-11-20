@@ -34,6 +34,7 @@ export interface Contact {
   description: string;
   email: string;
   phone?: string;
+  location: string;
 }
 
 export interface AppData {
