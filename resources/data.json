@@ -153,74 +153,27 @@
         },
         {
             "id": "7",
-            "title": "Death Roach Shooter",
+            "title": "PDV - Ponto de Venda",
             "year": 2025,
             "tags": [
-                "Jam",
-                "Shooter",
-                "Multiplayer"
+                "WebApp",
+                "React",
+                "Supabase"
             ],
-            "imageUrl": "https://i.imgur.com/XsNtQrK.png",
-            "description": "Jogo multiplayer de tiro feito em 1 semana para uma game jam.",
-            "longDescription": "Death Roach Shooter foi criado durante uma game jam de uma semana. O jogo é focado em ação rápida, tiroteio entre jogadores, e foi idealizado para ser divertido, simples e com design funcional. Trabalhei nas mecânicas de tiro, spawn de inimigos, sistema de pontuação e rede multiplayer simples.",
+            "imageUrl": "https://i.imgur.com/Kbw77E9.png",
+            "description": "Sistema de PDV desenvolvido para explorar e validar práticas modernas de frontend e backend utilizando React, Supabase e Tailwind. O projeto simula um ponto de venda completo com autenticação, cadastro de produtos e fluxo operacional otimizado.",
+            "longDescription": "Este projeto foi criado com o objetivo de reproduzir um Ponto de Venda (PDV) funcional, aplicando na prática tecnologias modernas que considero essenciais para construir aplicações web rápidas, robustas e escaláveis. No frontend, utilizei React com Vite para garantir excelente desempenho e uma estrutura modular clara. Com TailwindCSS, desenvolvi uma interface limpa, responsiva e fácil de evoluir. No backend, o Supabase foi escolhido pela combinação de PostgreSQL, autenticação e APIs em tempo real, o que permitiu implementar rapidamente o fluxo completo do PDV — incluindo login, gerenciamento de produtos e estrutura de vendas. Este projeto serve como uma prova de conceito sólida, demonstrando como integrar essas ferramentas de forma eficiente e mantendo uma arquitetura limpa, pronta para futuras expansões como controle de estoque, dashboards administrativos e integrações com dispositivos físicos.",
             "technologies": [
-                "Unity",
-                "C#",
-                "Multiplayer",
-                "Gameplay"
+                "React",
+                "Supabase",
+                "Tailwind",
+                "TypeScript",
+                "Vite"
             ],
             "galleryImages": [
-                "https://i.imgur.com/3KvbZw3.jpeg",
-                "https://i.imgur.com/H0OSCHq.jpeg"
-            ],
-            "projectUrl": ""
-        },
-        {
-            "id": "1",
-            "title": "Virtual Town",
-            "year": 2023,
-            "tags": [
-                "Simulação",
-                "Treinamento",
-                "Unity"
-            ],
-            "imageUrl": "https://i.imgur.com/DwDFPWO.jpeg",
-            "description": "Simulação de cidade virtual para treinamento e experiência imersiva.",
-            "longDescription": "Virtual Town é um ambiente virtual desenvolvido para simulações e treinamentos, usando Unity para criar interações realistas em uma cidade digital. Essa plataforma é usada pela VRGlass para demonstrar como ambientes imersivos podem ser aplicados em treinamento corporativo e experiências virtuais educacionais.",
-            "technologies": [
-                "Unity",
-                "C#",
-                "UI para Simulação",
-                "Sistemas de Treinamento"
-            ],
-            "galleryImages": [
-                "https://site.virtual.town/wp-content/uploads/2024/02/Screen-Shot-2024-02-19-at-11.54.51-AM.png",
-                "https://site.virtual.town/wp-content/uploads/2024/02/Screen-Shot-2024-02-19-at-11.52.38-AM.png",
-                "https://site.virtual.town/wp-content/uploads/2024/01/Screen-Shot-2024-01-30-at-5.07.36-PM.png",
-                "https://site.virtual.town/wp-content/uploads/2024/02/Screen-Shot-2024-02-19-at-3.25.46-PM.png"
-            ],
-            "projectUrl": "https://vrglass.com/"
-        },
-        {
-            "id": "4",
-            "title": "Selfie AI",
-            "year": 2025,
-            "tags": [
-                "IA",
-                "Imagem"
-            ],
-            "imageUrl": "https://i.imgur.com/tIur4eH.jpeg",
-            "description": "Aplicativo IA que transforma selfies em fotos digitais temáticas.",
-            "longDescription": "Selfie AI é um projeto que usa inteligência artificial para capturar selfies e transformar a imagem em um retrato digital com tema (fantasia, cyberpunk, medieval, etc.). A IA processa a imagem e aplica estilos artísticos, criando uma versão estilizada e personalizada da selfie do usuário.",
-            "technologies": [
-                "Unity",
-                "C#",
-                "IA",
-                "Serviços de Imagem"
-            ],
-            "galleryImages": [
-                "https://i.imgur.com/yZBEEzC.png",
-                "https://i.imgur.com/zZD75PU.png"
+                "https://i.imgur.com/4axDv1d.png",
+                "https://i.imgur.com/ZJ8ufdQ.png",
+                "https://i.imgur.com/3zL7Ude.png"
             ],
             "projectUrl": ""
         }
