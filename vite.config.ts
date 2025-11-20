@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
 
   // use VITE_BASE if provided, otherwise fallback to '/portfolio/' (replace with repo name)
-  const basePath = env.VITE_BASE || '/Portifolio/';
+  const basePath = env.VITE_BASE || '/portfolio/';
 
   return {
     base: basePath, // IMPORTANT: change '/portfolio/' to '/<your-repo-name>/' or set VITE_BASE
