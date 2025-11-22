@@ -204,6 +204,35 @@
                 "https://i.imgur.com/3zL7Ude.png"
             ],
             "projectUrl": "https://thomasdfoz.github.io/pdv-moderno/"
+        },
+        {
+            "id": "19",
+            "title": "DreamSelfie - AI Avatar Generator",
+            "year": 2025,
+            "tags": [
+                "WebApp",
+                "React",
+                "Tailwind",
+                "AI Integration",
+                "Mobile First"
+            ],
+            "imageUrl": "URL_OF_CHARACTER_SELECTION_SCREEN.png",
+            "description": "An interactive platform utilizing Generative AI to transform user selfies into stylized avatars (Cyberpunk, 3D, Retro), featuring a modern and immersive interface.",
+            "longDescription": "DreamSelfie is an application developed to democratize access to AI-generated art through a simplified and visually striking UX. The project focuses on a 'Mobile-First' experience, guiding the user through an intuitive flow: photo upload, artistic style selection (such as '80s Retro', 'Action Figure', 'Clay Animation'), and image generation. The interface utilizes a neon color palette and dark mode to create a futuristic atmosphere. Behind the fluid interface built with React and Tailwind, the application integrates diffusion model APIs to process transformations in real-time, demonstrating competence in complex API integration and responsive interface design.",
+            "technologies": [
+                "React",
+                "Tailwind CSS",
+                "Generative AI API",
+                "Vite",
+                "Framer Motion"
+            ],
+            "galleryImages": [
+                "URL_OF_LOGIN_SCREEN.png",
+                "URL_OF_UPLOAD_SCREEN.png",
+                "URL_OF_LOADING_SCREEN.png",
+                "URL_OF_RESULT_SCREEN.png"
+            ],
+            "projectUrl": "In Development"
         }
     ],
     "contact": {
