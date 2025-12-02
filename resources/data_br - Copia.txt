@@ -1,0 +1,286 @@
+{
+    "profile": {
+        "name": "Thomas",
+        "role": "Unity Gameplay Engineer & C# Systems Developer",
+        "headline": "Engenharia de jogos, sistemas, IA e experiências interativas.",
+        "about": [
+            "Sou especializado no desenvolvimento de jogos com Unity, criando gameplay, simulações e sistemas modulares em C#. Também trabalho com IA para gerar conteúdo e experiências únicas.",
+            "Tenho experiência em projetos reais, desde jams até simuladores de treinamento, sempre buscando entregar código limpo, arquiteturas escaláveis e ferramentas que possam ser usadas no mundo real.",
+            "Além disso, me interesso por interações sociais e visuais, prototipagem rápida e aprendizagem contínua através da construção de projetos variados."
+        ],
+        "avatarUrl": "https://i.imgur.com/l2RnGUv.jpeg",
+        "social": {
+            "github": "https://github.com/Thomasdfoz",
+            "linkedin": "https://www.linkedin.com/in/thomasprogrammer/",
+            "itchio": "https://thomasdfoz.itch.io/"
+        }
+    },
+    "skills": {
+        "Game Development": [
+            "Unity (C#)",
+            "Gameplay Systems",
+            "Simulação",
+            "Multiplayer",
+            "Pipelines de Ferramentas",
+            "Editor Extensions"
+        ],
+        "Backend & Serviços": [
+            "ASP.NET Core",
+            "REST APIs",
+            "Firebase / Supabase"
+        ],
+        "IA & Sistemas": [
+            "Integrações de IA",
+            "Geração de Conteúdo",
+            "IA para Imagens / Selfies",
+            "Eventos e Arquitetura Limpa"
+        ],
+        "Design & UX": [
+            "UI para Jogos",
+            "Prototipagem",
+            "Game Feel",
+            "Design de Missões e Fluxos"
+        ]
+    },
+    "projects": [
+        {
+            "id": "2",
+            "title": "Battle of Herone",
+            "year": 2025,
+            "tags": [
+                "Jogo",
+                "Multiplayer",
+                "Steam"
+            ],
+            "imageUrl": "https://i.imgur.com/vMBkXXM.png",
+            "description": "Jogo de estratégia com sistema de cartas e batalhas táticas, publicado na Steam. Todo o gameplay, sistema de unidades, cartas, progressão e lógica de batalha foram desenvolvidos do zero, com multiplayer assíncrono baseado em API e banco de dados.",
+            "longDescription": "Battle of Herone é um jogo de estratégia com foco em batalhas táticas utilizando cartas para invocar unidades e controlar o campo. Todo o projeto foi criado integralmente por mim: gameplay, sistema de cartas, lógica de batalha, economia, UI, mapas, arte procedural, ferramentas internas e integração com a Steam.\n\nO modelo multiplayer é **assíncrono**, sem rede em tempo real. Em vez de conexões diretas entre jogadores, o jogo utiliza API + banco de dados para registrar estados, enviar ações, processar resultados de batalhas e manter o progresso do jogador. Esse formato elimina a necessidade de servidores dedicados e garante partidas rápidas, seguras e estáveis.\n\nTecnicamente, o projeto inclui:\n- Sistema de cartas completo (custo, raridade, atributos, efeitos, arquétipos).\n- Mecânicas de combate totalmente autorais, com IA de unidades, movimentação, alcance e priorização de alvos.\n- Gerenciamento de deck, progressão, economia e recompensas.\n- Backend assíncrono via API, controle de partidas, armazenamento de resultados e persistência de dados.\n- Ferramentas internas no Unity para criação e balanceamento de unidades.\n- Publicação completa no Steamworks.\n\nNa minha avaliação profissional, este projeto demonstra domínio total das camadas essenciais de um jogo comercial: design, implementação, fluxo multiplayer assíncrono, produção de conteúdo, integração com plataforma e estabilidade geral. Os próximos passos naturais seriam telemetria de balanceamento, eventos sazonais e expansão de conteúdo (novas facções, cartas e modos).",
+            "technologies": [
+                "Unity",
+                "C#",
+                "API",
+                "Supabase",
+                "Banco de Dados",
+                "Steamworks"
+            ],
+            "galleryImages": [
+                "https://i.imgur.com/OgrmThJ.gif",
+                "https://i.imgur.com/aeG76qn.gif",
+                "https://i.imgur.com/QbdlmUo.gif",
+                "https://i.imgur.com/T1E08sM.gif"
+            ],
+            "projectUrl": "https://store.steampowered.com/app/4015690/Battle_of_Herone/"
+        },
+        {
+            "id": "3",
+            "title": "Simulador Empilhadeira",
+            "year": 2026,
+            "tags": [
+                "Simulação",
+                "Treinamento",
+                "Unity"
+            ],
+            "imageUrl": "https://i.imgur.com/nnXtXAr.jpeg",
+            "description": "Simulador realista para treinamento de operadores de empilhadeira.",
+            "longDescription": "Desenvolvi um simulador de empilhadeira para treinar operadores em um ambiente virtual seguro. O sistema simula física realista, controle de empilhadeira, colisões e tarefas de manuseio de cargas. Esse projeto é voltado para treinamento corporativo e educativo.",
+            "technologies": [
+                "Unity",
+                "C#",
+                "Multiplayer",
+                "Networking"
+            ],
+            "galleryImages": [
+                "https://i.imgur.com/gzNdzKD.jpeg"
+            ],
+            "projectUrl": ""
+        },
+        {
+            "id": "5",
+            "title": "Mists of Krakovia: O Grande Colapso",
+            "year": 2025,
+            "tags": [
+                "Jam",
+                "MMORPG"
+            ],
+            "imageUrl": "https://i.imgur.com/bcpl1UP.jpeg",
+            "description": "MMORPG criado em 1 mês como parte de uma game jam.",
+            "longDescription": "Durante uma game jam, desenvolvemos Mists of Krakovia: O Grande Colapso, um MMORPG com mecânicas de mundo aberto, combate e progressão. A rapidez do projeto exigiu design eficiente, prototipagem rápida e arquitetura extensível, e permitiu explorar sistemas de missão, inventário e rede em escala reduzida.",
+            "technologies": [
+                "Unity",
+                "C#",
+                "Multiplayer"
+            ],
+            "galleryImages": [
+                "https://i.imgur.com/viLkJeZ.jpeg",
+                "https://i.imgur.com/TR2dEuy.jpeg",
+                "https://i.imgur.com/R29erY9.jpeg"
+            ],
+            "projectUrl": ""
+        },
+        {
+            "id": "6",
+            "title": "Launcher — Mists of Krakovia",
+            "year": 2025,
+            "tags": [
+                "Launcher",
+                "Updater",
+                "Unity",
+                "UI Toolkit"
+            ],
+            "imageUrl": "https://i.imgur.com/WXfNO2f.jpeg",
+            "description": "Launcher profissional desenvolvido em Unity com UI Toolkit, responsável por baixar e atualizar automaticamente a última versão do MMORPG Mists of Krakovia.",
+            "longDescription": "Este launcher foi criado para gerenciar todo o fluxo de atualização do Mists of Krakovia. Construído em Unity utilizando UI Toolkit, ele se conecta a arquivos hospedados no GitHub Pages para verificar a versão mais recente do cliente, baixar atualizações, aplicar patches e garantir que o jogador sempre tenha a versão mais atualizada. O sistema inclui checagem automática de versão, download com barra de progresso, validação de arquivos, extração e substituição segura dos dados do jogo, inspirado na experiência de launchers profissionais de MMORPG como Albion e WoW.",
+            "features": [
+                "Interface construída com Unity UI Toolkit",
+                "Checagem automática de versão usando manifest.json hospedado no GitHub Pages",
+                "Download de atualizações do jogo diretamente do GitHub Pages",
+                "Sistema de progresso visual com status de download e verificação",
+                "Validação de integridade dos arquivos baixados",
+                "Extração e atualização automática do cliente do jogo",
+                "Fallback para reinstalação completa se a patch atual falhar",
+                "Design inspirado em launchers de grandes MMORPGs"
+            ],
+            "technologies": [
+                "Unity",
+                "C#",
+                "UI Toolkit",
+                "GitHub Pages (Hosting das versões e manifests)",
+                "GitHub Releases (para as builds)"
+            ],
+            "galleryImages": [
+                ""
+            ]
+        },
+        {
+            "id": "18",
+            "title": "Orbit - Gestão de Projetos e Equipes",
+            "year": 2026,
+            "tags": [
+                "WebApp",
+                "React",
+                "Tailwind",
+                "SaaS"
+            ],
+            "imageUrl": "https://i.imgur.com/5tgCOxz.png",
+            "description": "Um dashboard SaaS completo para gestão de projetos e rastreamento de tempo. Atualmente em desenvolvimento, conta com quadros Kanban interativos, CRM de clientes e análises detalhadas de produtividade.",
+            "longDescription": "O Orbit é um projeto ambicioso atualmente em desenvolvimento (previsto para 2026), projetado para resolver a fragmentação de ferramentas de produtividade. O objetivo é construir uma plataforma unificada onde agências possam gerenciar tarefas, rastrear horas faturáveis e organizar dados de clientes em um só lugar. A aplicação utiliza uma stack moderna com React e Tailwind CSS para entregar uma interface 'Dark Mode' responsiva e visualmente impactante. As principais funcionalidades em implementação incluem um quadro Kanban com drag-and-drop, análises de dashboard em tempo real para acompanhamento de carga de trabalho e um sistema integrado de timesheet. Este projeto demonstra gerenciamento de estado avançado no frontend e uma arquitetura complexa de componentes de UI.",
+            "technologies": [
+                "React",
+                "Tailwind",
+                "TypeScript",
+                "Vite",
+                "Recharts"
+            ],
+            "galleryImages": [
+                "https://i.imgur.com/Bz4ujcK.png",
+                "https://i.imgur.com/r7vM1JD.png",
+                "https://i.imgur.com/fA1aSWl.png",
+                "https://i.imgur.com/JgnxbaH.png",
+                "https://i.imgur.com/WTzXsAt.png"
+            ]
+        },
+        {
+            "id": "7",
+            "title": "PDV - Ponto de Venda",
+            "year": 2025,
+            "tags": [
+                "WebApp",
+                "React",
+                "Supabase"
+            ],
+            "imageUrl": "https://i.imgur.com/Kbw77E9.png",
+            "description": "Sistema de PDV desenvolvido para explorar e validar práticas modernas de frontend e backend utilizando React, Supabase e Tailwind. O projeto simula um ponto de venda completo com autenticação, cadastro de produtos e fluxo operacional otimizado.",
+            "longDescription": "Este projeto foi criado com o objetivo de reproduzir um Ponto de Venda (PDV) funcional, aplicando na prática tecnologias modernas que considero essenciais para construir aplicações web rápidas, robustas e escaláveis. No frontend, utilizei React com Vite para garantir excelente desempenho e uma estrutura modular clara. Com TailwindCSS, desenvolvi uma interface limpa, responsiva e fácil de evoluir. No backend, o Supabase foi escolhido pela combinação de PostgreSQL, autenticação e APIs em tempo real, o que permitiu implementar rapidamente o fluxo completo do PDV — incluindo login, gerenciamento de produtos e estrutura de vendas. Este projeto serve como uma prova de conceito sólida, demonstrando como integrar essas ferramentas de forma eficiente e mantendo uma arquitetura limpa, pronta para futuras expansões como controle de estoque, dashboards administrativos e integrações com dispositivos físicos.",
+            "technologies": [
+                "React",
+                "Supabase",
+                "Tailwind",
+                "TypeScript",
+                "Vite"
+            ],
+            "galleryImages": [
+                "https://i.imgur.com/4axDv1d.png",
+                "https://i.imgur.com/ZJ8ufdQ.png",
+                "https://i.imgur.com/3zL7Ude.png"
+            ],
+            "projectUrl": "https://thomasdfoz.github.io/pdv-moderno/"
+        },
+        {
+            "id": "19",
+            "title": "DreamSelfie - AI Avatar Generator",
+            "year": 2025,
+            "tags": [
+                "WebApp",
+                "React",
+                "Tailwind",
+                "AI Integration",
+                "Mobile First"
+            ],
+            "imageUrl": "https://i.imgur.com/nOmvxf6.png",
+            "description": "Uma plataforma interativa que utiliza Inteligência Artificial Generativa para transformar selfies em avatares estilizados (Cyberpunk, 3D, Retrô), com uma interface moderna e imersiva.",
+            "longDescription": "O DreamSelfie é uma aplicação desenvolvida para democratizar o acesso à arte gerada por IA através de uma UX simplificada e visualmente impactante. O projeto foca em uma experiência 'Mobile-First', guiando o usuário por um fluxo intuitivo: upload de foto, seleção de estilo artístico (como '80s Retro', 'Action Figure', 'Clay Animation') e geração de imagem. A interface utiliza uma paleta de cores neon e dark mode para criar uma atmosfera futurista. Por trás da interface fluida construída em React e Tailwind, a aplicação integra APIs de modelos de difusão (Stable Diffusion/Midjourney) para processar as transformações em tempo real, demonstrando competência em integração de APIs complexas e design de interfaces responsivas.",
+            "technologies": [
+                "React",
+                "Tailwind CSS",
+                "Stable Diffusion API",
+                "Vite",
+                "Framer Motion"
+            ],
+            "galleryImages": [
+                "https://i.imgur.com/t8KB1pk.png",
+                "https://i.imgur.com/F6pORxF.png",
+                "https://i.imgur.com/lR7f3QL.png",
+                "https://i.imgur.com/jYlHdnN.png",
+                "https://i.imgur.com/mYgKApf.png",
+                "https://i.imgur.com/2xIYqx7.png"
+            ]
+        }
+    ],
+    "contact": {
+        "title": "Vamos Conversar",
+        "description": "Se você está pensando em um projeto de jogo, simulação ou IA, ou quer apenas trocar uma ideia, estou à disposição!",
+        "email": "eletronicgamesstudio@gmail.com",
+        "phone": "+55 45 99151-7779",
+        "location": "Foz do Iguaçu, Brasil",
+        "infoTitle": "Informações de Contato",
+        "emailLabel": "Email",
+        "phoneLabel": "Telefone",
+        "locationLabel": "Localização",
+        "form": {
+            "nameLabel": "Nome",
+            "namePlaceholder": "Seu nome",
+            "emailLabel": "Email",
+            "emailPlaceholder": "seu@email.com",
+            "messageLabel": "Mensagem",
+            "messagePlaceholder": "Sua mensagem...",
+            "whatsappButton": "WhatsApp",
+            "emailButton": "Email",
+            "whatsappMessage": "Olá, meu nome é {name}. Meu email é {email}. {message}",
+            "emailSubject": "Contato pelo Portfólio de {name}",
+            "emailBody": "Nome: {name}\\r\\nEmail: {email}\\r\\n\\r\\nMensagem:\\r\\n{message}"
+        }
+    },
+    "navbar": {
+        "about": "Sobre",
+        "work": "Trabalhos",
+        "contact": "Contato"
+    },
+    "footer": {
+        "rights": "Todos os direitos reservados."
+    },
+    "home": {
+        "title": "Meus Trabalhos",
+        "description": "Projetos que traduzem minha paixão por tecnologia e minha dedicação em construir soluções robustas e envolventes."
+    },
+    "labels": {
+        "skills": "Competências",
+        "viewProjects": "Ver Projetos",
+        "projectNotFound": "Projeto não encontrado",
+        "backToWork": "Voltar para trabalhos",
+        "back": "Voltar",
+        "technologies": "Tecnologias Utilizadas",
+        "viewProject": "Ver Projeto",
+        "viewProjectDetails": "Ver detalhes do projeto",
+        "projectImage": "Imagem do projeto"
+    }
+}

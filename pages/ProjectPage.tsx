@@ -79,7 +79,7 @@ const ProjectPage: React.FC = () => {
             <img
               src={project.imageUrl}
               alt={project.title}
-              className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              className="w-auto h-auto max-h-[600px] mx-auto object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="grid grid-cols-2 gap-4">

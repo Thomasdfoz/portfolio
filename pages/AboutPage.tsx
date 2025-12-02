@@ -29,7 +29,7 @@ const AboutPage: React.FC = () => {
               className="w-32 h-32 sm:w-40 sm:h-40 rounded-full border-4 border-white dark:border-gray-900 object-cover"
             />
           </motion.div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-gray-100 tracking-tight mb-4">
+          <h1 className="text-2xl sm:text-3xl font-medium mb-6 text-gray-900 dark:text-gray-100 tracking-tight">
             {profile.name}
           </h1>
           <p className="text-xl sm:text-2xl text-indigo-600 dark:text-indigo-400 font-medium mb-6">
@@ -73,7 +73,7 @@ const AboutPage: React.FC = () => {
                 </h4>
                 <div className="flex flex-wrap gap-2">
                   {items.map(skill => (
-                    <span key={skill} className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm font-medium">
+                    <span key={skill} className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-md text-sm font-medium">
                       {skill}
                     </span>
                   ))}

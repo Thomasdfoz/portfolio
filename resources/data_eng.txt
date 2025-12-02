@@ -1,15 +1,14 @@
 {
     "profile": {
-        "name": "Thomas Gabriel de Souza Barros",
+        "name": "Thomas",
         "role": "Unity Gameplay Engineer & C# Systems Developer",
-        "headline": "Unity Development, Multiplayer Systems, Backend Architecture, and Interactive Experiences.",
+        "headline": "Game Engineering, Systems, AI, and Interactive Experiences.",
         "about": [
-            "I am a Unity Developer with solid experience across VR, WebGL, Mobile, and Desktop platforms.",
-            "I thrive in fast-paced environments, quickly adapting to new challenges and technologies.",
-            "Passionate about building efficient, scalable, and user-centered solutions, I combine strong technical skills with creative problem-solving.",
-            "I’m driven by innovation and committed to delivering high-quality results on time, always seeking opportunities to grow and contribute to impactful projects."
+            "I specialize in game development with Unity, creating gameplay, simulations, and modular systems in C#. I also work with AI to generate content and unique experiences.",
+            "I have experience in real-world projects, from jams to training simulators, always striving to deliver clean code, scalable architectures, and tools that can be used in the real world.",
+            "Additionally, I am interested in social and visual interactions, rapid prototyping, and continuous learning through building varied projects."
         ],
-        "avatarUrl": "https://i.imgur.com/cBxFcRH.jpeg",
+        "avatarUrl": "https://i.imgur.com/l2RnGUv.jpeg",
         "social": {
             "github": "https://github.com/Thomasdfoz",
             "linkedin": "https://www.linkedin.com/in/thomasprogrammer/",
@@ -17,45 +16,30 @@
         }
     },
     "skills": {
-        "Game Development & Simulation": [
-            "Unity Core (Addressables, XR Interaction Toolkit, UI Toolkit, Terrain Tools, ScriptableObjects, Scene Management)",
-            "Gameplay Systems (player controllers, HUD, feedback loops, exercise scripting, checkpoints)",
-            "Graphics & Rendering (dynamic lighting, day/night cycles, post-processing, performance optimization)",
-            "Audio Systems (animal soundscapes, environmental SFX, mixing and triggers)",
-            "Transparent/Overlay Desktop Apps (Unity apps rendered over the desktop with windowless/transparent presentation)",
-            "Cross-Platform Builds (VR, WebGL, Mobile, Desktop)"
+        "Game Development": [
+            "Unity (C#)",
+            "Gameplay Systems",
+            "Simulation",
+            "Multiplayer",
+            "Tool Pipelines",
+            "Editor Extensions"
         ],
-        "Multiplayer & Connectivity": [
-            "Photon (PUN2) – scalable multiplayer networking",
-            "Mirror – modern high-level networking for Unity",
-            "UNet (Legacy) – experience with deprecated Unity networking systems",
-            "Unity Netcode for GameObjects (NGO) – official Unity multiplayer framework",
-            "Unity Netcode for Entities – ECS-based multiplayer",
-            "Unity Matchmaking & Relay Services – lobby, matchmaking, session management",
-            "Colyseus – multiplayer framework for WebGL/VR",
-            "WebSocket Integration – real-time communication, multi-device sync",
-            "Agora.io – video calls, real-time AR streaming, chat, file sharing",
-            "API Integration – Unity + external services, real-time content updates"
+        "Backend & Services": [
+            "ASP.NET Core",
+            "REST APIs",
+            "Firebase / Supabase"
         ],
-        "Architecture & Tools": [
-            "UPM (Unity Package Manager) – modular architecture, multi-project reuse",
-            "Editor Tools Development – custom workflows, automation, diagnostics",
-            "Addressables + Dynamic Content – API-driven loading, scalable updates",
-            "CI/CD Pipelines – VR, WebGL, Mobile, Standalone",
-            "Build Automation & Deployment"
+        "AI & Systems": [
+            "AI Integrations",
+            "Content Generation",
+            "AI for Images / Selfies",
+            "Events and Clean Architecture"
         ],
-        "Backend & Servers": [
-            "C# Backend Development – APIs, server-side logic, database integration",
-            "Python & Node.js Servers – real-time services and integrations",
-            "Unity Headless Servers – non-rendered builds for Windows & Linux",
-            "Database Management – design, queries, Unity integration",
-            "Windows Service Applications – Unity projects running as background services",
-            "API Gateways & Cloud – Azure, AWS, Oracle"
-        ],
-        "Additional Skills": [
-            "QA & Debugging – stable builds, profiling, rapid iteration",
-            "Documentation & Code Reviews – clean coding, modular practices",
-            "Agile Teamwork – sprints, field testing, client delivery"
+        "Design & UX": [
+            "Game UI",
+            "Prototyping",
+            "Game Feel",
+            "Mission and Flow Design"
         ]
     },
     "projects": [
@@ -88,38 +72,8 @@
             "projectUrl": "https://store.steampowered.com/app/4015690/Battle_of_Herone/"
         },
         {
-            "id": "19",
-            "title": "DreamSelfie - AI Avatar Generator",
-            "year": 2025,
-            "tags": [
-                "WebApp",
-                "React",
-                "Tailwind",
-                "AI Integration",
-                "Mobile First"
-            ],
-            "imageUrl": "https://i.imgur.com/nOmvxf6.png",
-            "description": "An interactive platform utilizing Generative AI to transform user selfies into stylized avatars (Cyberpunk, 3D, Retro), featuring a modern and immersive interface.",
-            "longDescription": "DreamSelfie is an application developed to democratize access to AI-generated art through a simplified and visually striking UX. The project focuses on a 'Mobile-First' experience, guiding the user through an intuitive flow: photo upload, artistic style selection (such as '80s Retro', 'Action Figure', 'Clay Animation'), and image generation. The interface utilizes a neon color palette and dark mode to create a futuristic atmosphere. Behind the fluid interface built with React and Tailwind, the application integrates diffusion model APIs to process transformations in real-time, demonstrating competence in complex API integration and responsive interface design.",
-            "technologies": [
-                "React",
-                "Tailwind CSS",
-                "Generative AI API",
-                "Vite",
-                "Framer Motion"
-            ],
-            "galleryImages": [
-                "https://i.imgur.com/t8KB1pk.png",
-                "https://i.imgur.com/F6pORxF.png",
-                "https://i.imgur.com/lR7f3QL.png",
-                "https://i.imgur.com/jYlHdnN.png",
-                "https://i.imgur.com/mYgKApf.png",
-                "https://i.imgur.com/2xIYqx7.png"
-            ]
-        },
-        {
             "id": "3",
-            "title": "Forklift Simulator – Unity Training Project",
+            "title": "Forklift Simulator",
             "year": 2026,
             "tags": [
                 "Simulation",
@@ -127,16 +81,13 @@
                 "Unity"
             ],
             "imageUrl": "https://i.imgur.com/nnXtXAr.jpeg",
-            "description": "3D forklift simulator for operator training, featuring realistic physics, modular architecture, and interactive exercises.",
-            "longDescription": "Led the development of a forklift simulator designed to train operators in a safe and controlled virtual environment. The project features realistic forklift physics, modular cargo handling workflows, and interactive training exercises. Key systems include player controller, HUD feedback, checkpoints, and exercise scripting. WebSocket services were integrated for real-time communication and remote command execution, while a weather simulation system and remote control workflows enhanced realism and adaptability. The architecture was built with Unity Addressables and ScriptableObjects to optimize performance and scalability, supported by a CI/CD pipeline for WebGL and standalone builds. Delivered as a polished MVP with documentation, automated builds, and multi-stage deployment (Staging → Master → Production).",
+            "description": "Realistic simulator for forklift operator training.",
+            "longDescription": "I developed a forklift simulator to train operators in a safe virtual environment. The system simulates realistic physics, forklift control, collisions, and load handling tasks. This project is aimed at corporate and educational training.",
             "technologies": [
-                "Unity (Addressables, UI Toolkit, ScriptableObjects)",
+                "Unity",
                 "C#",
-                "WebSocket Integration",
-                "Modular Architecture (asmdef)",
-                "CI/CD Pipeline for WebGL/Standalone",
-                "Weather & Remote Systems",
-                "Forklift Physics & Gameplay Systems"
+                "Multiplayer",
+                "Networking"
             ],
             "galleryImages": [
                 "https://i.imgur.com/gzNdzKD.jpeg"
@@ -253,6 +204,37 @@
                 "https://i.imgur.com/3zL7Ude.png"
             ],
             "projectUrl": "https://thomasdfoz.github.io/pdv-moderno/"
+        },
+        {
+            "id": "19",
+            "title": "DreamSelfie - AI Avatar Generator",
+            "year": 2025,
+            "tags": [
+                "WebApp",
+                "React",
+                "Tailwind",
+                "AI Integration",
+                "Mobile First"
+            ],
+            "imageUrl": "https://i.imgur.com/nOmvxf6.png",
+            "description": "An interactive platform utilizing Generative AI to transform user selfies into stylized avatars (Cyberpunk, 3D, Retro), featuring a modern and immersive interface.",
+            "longDescription": "DreamSelfie is an application developed to democratize access to AI-generated art through a simplified and visually striking UX. The project focuses on a 'Mobile-First' experience, guiding the user through an intuitive flow: photo upload, artistic style selection (such as '80s Retro', 'Action Figure', 'Clay Animation'), and image generation. The interface utilizes a neon color palette and dark mode to create a futuristic atmosphere. Behind the fluid interface built with React and Tailwind, the application integrates diffusion model APIs to process transformations in real-time, demonstrating competence in complex API integration and responsive interface design.",
+            "technologies": [
+                "React",
+                "Tailwind CSS",
+                "Generative AI API",
+                "Vite",
+                "Framer Motion"
+            ],
+            "galleryImages": [
+                "https://i.imgur.com/t8KB1pk.png",
+                "https://i.imgur.com/F6pORxF.png",
+                "https://i.imgur.com/lR7f3QL.png",
+                "https://i.imgur.com/jYlHdnN.png",
+                "https://i.imgur.com/mYgKApf.png",
+                "https://i.imgur.com/2xIYqx7.png"
+            ],
+            "projectUrl": "In Development"
         }
     ],
     "contact": {

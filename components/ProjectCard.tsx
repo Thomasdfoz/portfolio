@@ -16,7 +16,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       className="group block"
       aria-label={`${data.labels.viewProjectDetails} ${project.title}`}
     >
-      <div className="aspect-w-4 aspect-h-3 overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-800 shadow-md">
+      <div className="h-64 w-full overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-800 shadow-md">
         <img
           src={project.imageUrl}
           alt={`${data.labels.projectImage} ${project.title}`}
