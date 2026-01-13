@@ -41,7 +41,7 @@
             "UPM (Unity Package Manager) – arquitetura modular, reutilização em múltiplos projetos",
             "Desenvolvimento de Ferramentas de Editor – fluxos de trabalho personalizados, automação, diagnósticos",
             "Addressables + Conteúdo Dinâmico – carregamento via API, atualizações escaláveis",
-            "Pipelines CI/CD – VR, WebGL, Mobile, Standalone",
+            "Pipelines - VR, WebGL, Mobile, Standalone",
             "Automação de Build & Deploy"
         ],
         "Backend & Servers": [
