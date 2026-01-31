@@ -144,7 +144,33 @@
                 "https://i.imgur.com/mcCFpVS.png"
             ],
             "projectUrl": "https://github.com/Thomasdfoz/TRAY-TASKER"
-        },
+            },
+            {
+                "id": "21",
+                "title": "Global Feed — High-Relevance Social Network",
+                "year": 2025,
+                "tags": [
+                    "Social Media",
+                    "UI/UX Design",
+                    "React",
+                    "Gamification"
+                ],
+                "imageUrl": "https://i.imgur.com/FbhudtH.png",
+                "description": "A social network concept focused on quality through scarcity, featuring a limited credit system for global broadcasts.",
+                "longDescription": "Global Feed is a platform that challenges traditional social media dynamics by introducing a limited posting credit system. The goal is to reduce digital noise by encouraging high-quality content that has the potential to reach the entire user base. The design features a minimalist 'Off-White' aesthetic with Electric Blue (#0066FF) accents, merging the structural familiarity of Facebook with Instagram's visual polish. I developed the entire Design System, including the core Credit Module with real-time countdowns and a responsive, immersive content composer.",
+                "technologies": [
+                    "React",
+                    "TypeScript",
+                    "Tailwind CSS",
+                    "Framer Motion",
+                    "UI/UX Strategy",
+                    "Custom Design System"
+                ],
+                "galleryImages": [
+                    "https://i.imgur.com/FbhudtH.png"
+                ],
+                "projectUrl": "https://i.imgur.com/FbhudtH.png"
+            },
         {
             "id": "3",
             "title": "Forklift Simulator – Unity Training Project",

@@ -146,6 +146,32 @@
             "projectUrl": "https://github.com/Thomasdfoz/TRAY-TASKER"
         },
         {
+            "id": "21",
+            "title": "Global Feed — Rede Social de Alta Relevância",
+            "year": 2025,
+            "tags": [
+                "Social Media",
+                "UI/UX Design",
+                "React",
+                "Economy System"
+            ],
+            "imageUrl": "https://i.imgur.com/FbhudtH.png",
+            "description": "Conceito de rede social focado em qualidade através da escassez, onde usuários possuem créditos limitados para postagens globais.",
+            "longDescription": "O Global Feed é uma plataforma que subverte a lógica das redes sociais tradicionais ao introduzir um sistema de créditos limitados. O objetivo é combater o ruído digital, incentivando postagens de alta qualidade que podem ser vistas por toda a base de usuários. O design utiliza uma estética minimalista 'Off-White' com Azul Elétrico (#0066FF), combinando a estrutura do Facebook com a fluidez visual do Instagram. Desenvolvi todo o sistema de design (Design System), incluindo o módulo de créditos com contagem regressiva em tempo real e uma interface de criação de conteúdo (Composer) adaptativa.",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Framer Motion",
+                "Lucide Icons",
+                "Design System Autoral"
+            ],
+            "galleryImages": [
+                "https://i.imgur.com/FbhudtH.png"
+            ],
+            "projectUrl": "https://i.imgur.com/FbhudtH.png"
+        },
+        {
             "id": "3",
             "title": "Simulador de Empilhadeira – Projeto de Treinamento Unity",
             "year": 2026,
