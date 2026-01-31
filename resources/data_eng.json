@@ -118,6 +118,34 @@
             ]
         },
         {
+            "id": "20",
+            "title": "TRAY-TASKER — Desktop Task Manager",
+            "year": 2026,
+            "tags": [
+                "Desktop",
+                "Open Source",
+                "Productivity",
+                "Electron"
+            ],
+            "imageUrl": "https://i.imgur.com/OVSId4Z.png",
+            "description": "A lightweight Windows application that manages routines and tasks directly from the system tray, focusing on reducing distractions and maintaining workflow.",
+            "longDescription": "TRAY-TASKER was developed to solve the problem of attention fragmentation during work. Unlike web-based managers, it resides in the Windows System Tray, allowing instant access without opening a browser. The project implements a weekly routine system with defined time blocks, triggering automatic notifications at the start and end of each activity. Being 100% Open Source, the code was structured modularly to allow the community to study the integration between Electron and React, while facilitating contributions via GitHub.",
+            "technologies": [
+                "Electron",
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Node.js",
+                "Windows Tray API"
+            ],
+            "galleryImages": [
+                "https://i.imgur.com/2EkfACk.png",
+                "https://i.imgur.com/jEudBke.png",
+                "https://i.imgur.com/mcCFpVS.png"
+            ],
+            "projectUrl": "https://github.com/Thomasdfoz/TRAY-TASKER"
+        },
+        {
             "id": "3",
             "title": "Forklift Simulator – Unity Training Project",
             "year": 2026,
