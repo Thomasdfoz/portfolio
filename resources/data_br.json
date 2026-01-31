@@ -41,7 +41,7 @@
             "UPM (Unity Package Manager) – arquitetura modular, reutilização em múltiplos projetos",
             "Desenvolvimento de Ferramentas de Editor – fluxos de trabalho personalizados, automação, diagnósticos",
             "Addressables + Conteúdo Dinâmico – carregamento via API, atualizações escaláveis",
-            "Pipelines - VR, WebGL, Mobile, Standalone",
+            "Pipelines CD/CI - VR, WebGL, Mobile, Standalone",
             "Automação de Build & Deploy"
         ],
         "Backend & Servers": [
@@ -86,6 +86,33 @@
                 "https://i.imgur.com/T1E08sM.gif"
             ],
             "projectUrl": "https://store.steampowered.com/app/4015690/Battle_of_Herone/"
+        },  {
+            "title": "TRAY-TASKER — Gerenciador de Tarefas Desktop",
+            "id": "20",
+            "year": 2026,
+            "tags": [
+                "Desktop",
+                "Open Source",
+                "Produtividade",
+                "Electron"
+            ],
+            "imageUrl": "https://i.imgur.com/OVSId4Z.png",
+            "description": "Aplicativo leve para Windows que gerencia rotinas e tarefas diretamente da system tray, com foco em reduzir distrações e manter o fluxo de trabalho.",
+            "longDescription": "O TRAY-TASKER foi desenvolvido para resolver o problema de fragmentação de atenção durante o trabalho. Diferente de gerenciadores web, ele reside na bandeja do Windows (System Tray), permitindo acesso instantâneo sem abrir o navegador. O projeto implementa um sistema de rotina semanal com blocos de tempo definidos, emitindo notificações automáticas no início e fim de cada atividade. Sendo 100% Open Source, o código foi estruturado de forma modular para permitir que a comunidade estude a integração entre Electron e React, além de facilitar contribuições via GitHub.",
+            "technologies": [
+                "Electron",
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Node.js",
+                "Windows Tray API"
+            ],
+            "galleryImages": [
+                "https://i.imgur.com/2EkfACk.png",
+                "https://i.imgur.com/jEudBke.png",
+                "https://i.imgur.com/mcCFpVS.png"
+            ],
+            "projectUrl": "https://github.com/Thomasdfoz/TRAY-TASKER"
         },
         {
             "id": "19",
@@ -117,34 +144,7 @@
                 "https://i.imgur.com/2xIYqx7.png"
             ]
         },
-        {
-            "title": "TRAY-TASKER — Gerenciador de Tarefas Desktop",
-            "id": "20",
-            "year": 2026,
-            "tags": [
-                "Desktop",
-                "Open Source",
-                "Produtividade",
-                "Electron"
-            ],
-            "imageUrl": "https://i.imgur.com/OVSId4Z.png",
-            "description": "Aplicativo leve para Windows que gerencia rotinas e tarefas diretamente da system tray, com foco em reduzir distrações e manter o fluxo de trabalho.",
-            "longDescription": "O TRAY-TASKER foi desenvolvido para resolver o problema de fragmentação de atenção durante o trabalho. Diferente de gerenciadores web, ele reside na bandeja do Windows (System Tray), permitindo acesso instantâneo sem abrir o navegador. O projeto implementa um sistema de rotina semanal com blocos de tempo definidos, emitindo notificações automáticas no início e fim de cada atividade. Sendo 100% Open Source, o código foi estruturado de forma modular para permitir que a comunidade estude a integração entre Electron e React, além de facilitar contribuições via GitHub.",
-            "technologies": [
-                "Electron",
-                "React",
-                "TypeScript",
-                "Tailwind CSS",
-                "Node.js",
-                "Windows Tray API"
-            ],
-            "galleryImages": [
-                "https://i.imgur.com/2EkfACk.png",
-                "https://i.imgur.com/jEudBke.png",
-                "https://i.imgur.com/mcCFpVS.png"
-            ],
-            "projectUrl": "https://github.com/Thomasdfoz/TRAY-TASKER"
-        },
+      
         {
             "id": "21",
             "title": "Global Feed — Rede Social de Alta Relevância",

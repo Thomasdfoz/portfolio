@@ -9,9 +9,11 @@ export default defineConfig(({ mode }) => {
 
   // use VITE_BASE if provided, otherwise fallback to '/portfolio/' (replace with repo name)
   const basePath = env.VITE_BASE || '/portfolio/';
+  // Serve from root during development so local URL is `http://localhost:3000/`
+  const base = mode === 'development' ? '/' : basePath;
 
   return {
-    base: basePath, // IMPORTANT: change '/portfolio/' to '/<your-repo-name>/' or set VITE_BASE
+    base: base, // IMPORTANT: change '/portfolio/' to '/<your-repo-name>/' or set VITE_BASE
     server: {
       port: 3000,
       host: '0.0.0.0',
