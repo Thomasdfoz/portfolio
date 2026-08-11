@@ -1,0 +1,477 @@
+{
+  "profile": {
+    "name": "Thomas Gabriel de Souza Barros",
+    "role": "Desenvolvedor Unity & Engenheiro de Sistemas Interativos",
+    "headline": "Unity, multiplayer/online, WebGL, Three.js, VR/AR, simulação e backend para produtos interativos.",
+    "about": [
+      "Sou desenvolvedor Unity/C# com experiência prática em jogos comerciais, simuladores, metaverso, WebGL, VR/AR, viewers 3D e sistemas conectados em tempo real.",
+      "Gosto de entrar em projetos complexos e transformar protótipos em produtos sustentáveis: arquitetura modular, ferramentas internas, pipelines de build, integração de APIs, multiplayer, telemetria, Addressables e documentação clara.",
+      "Projetos recentes incluem Battle of Herone, Dungebra, Forklift Simulator, MedRoom Anatomy Web, VirtualTown, AviaXR, Vuzix Remote Assistance, Showmaker Multitelas e launchers/updaters de jogos.",
+      "Meu foco é construir sistemas que o time consiga manter, expandir e entregar sem perder velocidade."
+    ],
+    "avatarUrl": "Portfolio.png",
+    "social": {
+      "github": "https://github.com/Thomasdfoz",
+      "linkedin": "https://www.linkedin.com/in/thomasprogrammer/",
+      "itchio": "https://thomasdfoz.itch.io/"
+    }
+  },
+  "skills": {
+    "Unity & Gameplay": [
+      "Unity 6 / 2022 LTS",
+      "C#",
+      "Addressables",
+      "ScriptableObjects",
+      "UI Toolkit",
+      "XR Interaction Toolkit",
+      "Cinemachine",
+      "Localization",
+      "Steamworks",
+      "Editor Tools"
+    ],
+    "Online & Backend": [
+      "WebSocket / Socket.IO",
+      "Colyseus",
+      "Photon",
+      "Mirror",
+      "Unity Netcode",
+      "REST APIs",
+      "NestJS",
+      "JWT",
+      "Redis",
+      "MongoDB",
+      "MySQL",
+      "Supabase"
+    ],
+    "Web & 3D": [
+      "Three.js",
+      "react-three-fiber",
+      "Next.js",
+      "React",
+      "TypeScript",
+      "GLB/GLTF",
+      "Draco",
+      "KTX2",
+      "Meshopt",
+      "i18n",
+      "Firebase"
+    ],
+    "Produção": [
+      "CI/CD",
+      "WebGL builds",
+      "Standalone builds",
+      "UPM packages",
+      "Docker",
+      "GitLab/GitHub",
+      "Profiling",
+      "QA",
+      "Documentação",
+      "Code Review"
+    ]
+  },
+  "projects": [
+    {
+      "id": "forklift-platform",
+      "title": "Forklift / Plataforma de Simuladores",
+      "year": 2026,
+      "tags": [
+        "Unity",
+        "Simulação",
+        "Online",
+        "Backend"
+      ],
+      "imageUrl": "/Simulador de Empilhadeira/nnXtXAr.jpeg",
+      "description": "Ecossistema de simulação de treinamento com Unity, backend em tempo real, telemetria e builds WebGL/standalone.",
+      "longDescription": "Projeto atual de 2026, evoluindo de um simulador de empilhadeira para uma plataforma modular de simulações de treinamento.\n\n- Cliente Unity com física de empilhadeira, exercícios interativos, checkpoints, HUD e fluxo de execução.\n- Arquitetura modular separando Simulator Core, Simulator Assets e Manager Studio.\n- Addressables, ScriptableObjects e sistemas de autoria para cenas, veículos, cargas e exercícios.\n- Integração WebSocket/Socket.IO para comandos remotos, telemetria e sincronização em tempo real.\n- Backend NestJS com JWT, Redis, MongoDB/MySQL e persistência de dados de simulação.\n- Fluxo de entrega para WebGL, standalone e múltiplos ambientes.",
+      "technologies": [
+        "Unity",
+        "C#",
+        "Addressables",
+        "ScriptableObjects",
+        "Socket.IO",
+        "NestJS",
+        "Redis",
+        "MongoDB",
+        "MySQL",
+        "WebGL"
+      ],
+      "galleryImages": [
+        "/Simulador de Empilhadeira/gzNdzKD.jpeg"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "medroom-anatomy-web",
+      "title": "MedRoom Anatomy Web",
+      "year": 2026,
+      "tags": [
+        "Three.js",
+        "Medical",
+        "Web 3D",
+        "Arquitetura"
+      ],
+      "imageUrl": "/MedRoom Anatomy Web/Captura de tela 2026-08-11 181246.png",
+      "description": "Viewer médico 3D com Three.js, Next.js e arquitetura de Plugin Engine para modelos anatômicos GLB.",
+      "longDescription": "Plataforma web para exploração de anatomia médica em 3D, incluindo modelos como Lucy, Max, coração e dentes.\n\n- Next.js, React, TypeScript, Three.js, react-three-fiber e drei.\n- Pipeline GLB com Draco, KTX2/Basis e Meshopt.\n- Arquitetura Plugin Engine com ViewerCore, SceneEngine, EventBus, BundleLoader e plugins isolados.\n- Manifests 1:1 entre GLB e JSON, validação de cobertura de meshes e i18n por modelo.\n- Separação clara entre engine TypeScript pura e UI React.\n- Experimentos relacionados em MedRoom Mobile, Unity WebViewer e protótipos Three.js.",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Three.js",
+        "react-three-fiber",
+        "GLB",
+        "Draco",
+        "KTX2",
+        "Meshopt",
+        "i18n"
+      ],
+      "galleryImages": [
+        "/MedRoom Anatomy Web/Captura de tela 2026-08-11 181254.png",
+        "/MedRoom Anatomy Web/Captura de tela 2026-08-11 181310.png"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "dungebra",
+      "title": "Dungebra",
+      "year": 2026,
+      "tags": [
+        "Unity",
+        "Deckbuilder",
+        "Roguelike",
+        "Steam"
+      ],
+      "imageUrl": "/Dungebra/Image Sequence_233_0001.jpg",
+      "description": "Roguelike deckbuilder em Unity 6 com combate matemático, eventos determinísticos, localização e estrutura pronta para Steam.",
+      "longDescription": "Dungebra é um roguelike de cartas de fantasia com foco em matemática transparente, sinergias e ordem de execução.\n\n- Vertical slice jogável com loop de run, combate, loja, heróis, cartas, itens e inimigos.\n- Sistema determinístico de eventos para resolução de cartas, stacks, multiplicadores, recursos e fim de combate.\n- Estrutura Unity 6 com Addressables, localização, Input System e organização pronta para expansão de conteúdo.\n- Design técnico orientado a dados para facilitar balanceamento, novas cartas e novas mecânicas.\n- Documentação de GDD e briefing visual para colaboração com artistas/UI.",
+      "technologies": [
+        "Unity 6",
+        "C#",
+        "Addressables",
+        "Localization",
+        "ScriptableObjects",
+        "Steam",
+        "Game Design"
+      ],
+      "galleryImages": [
+        "/Dungebra/Image Sequence_242_0001.jpg",
+        "/Dungebra/Image Sequence_244_0001.jpg",
+        "/Dungebra/Image Sequence_254_0001.jpg",
+        "/Dungebra/Image Sequence_259_0001.jpg"
+      ],
+      "projectUrl": "https://store.steampowered.com/app/4841590/Dungebra/"
+    },
+    {
+      "id": "battle-of-herone",
+      "title": "Battle of Herone",
+      "year": 2025,
+      "tags": [
+        "Unity",
+        "Cartas",
+        "Multiplayer",
+        "Steam"
+      ],
+      "imageUrl": "/Battle of herone/vMBkXXM.png",
+      "description": "Jogo tático de cartas publicado na Steam, com multiplayer assíncrono via API e banco de dados.",
+      "longDescription": "Battle of Herone é um jogo de estratégia focado em batalhas táticas usando cartas para invocar unidades e controlar o campo.\n\n- Gameplay, sistema de cartas, economia, progressão, mapas, UI e ferramentas internas desenvolvidos do zero.\n- Multiplayer assíncrono baseado em API + banco de dados, sem necessidade de servidores dedicados em tempo real.\n- Sistemas de unidade com IA, movimento, alcance, priorização de alvos e resolução de batalha.\n- Integração com Steamworks e publicação comercial na Steam.\n- Ferramentas internas na Unity para criação, balanceamento e manutenção de conteúdo.",
+      "technologies": [
+        "Unity",
+        "C#",
+        "Steamworks",
+        "API",
+        "Supabase",
+        "Database",
+        "Async Multiplayer"
+      ],
+      "galleryImages": [
+        "/Battle of herone/T1E08sM.gif",
+        "/Battle of herone/QbdlmUo.gif"
+      ],
+      "projectUrl": "https://store.steampowered.com/app/4015690/Battle_of_Herone/"
+    },
+    {
+      "id": "vrglass-connected-xr",
+      "title": "VRGlass / Projetos XR Conectados",
+      "year": 2025,
+      "tags": [
+        "VR/AR",
+        "WebGL",
+        "Metaverso",
+        "Enterprise"
+      ],
+      "imageUrl": "/VRGlass/vrglass-logo-CaVUkrPo.png",
+      "description": "Projetos Unity enterprise para WebGL, VR, AR, metaverso, Vuzix, experiências multitelas e ferramentas internas.",
+      "longDescription": "Conjunto de projetos desenvolvidos na VRGlass e em ecossistemas relacionados, com foco em experiências conectadas e reutilização técnica.\n\n- VirtualTown / metaverso modular com WebGL/VR, Colyseus, Photon e Addressables.\n- Assistência remota Vuzix com Agora.io, chat, vídeo, streaming AR e fluxos industriais.\n- AviaXR, Showmaker Multitelas, Planograma, tradutores WebGL e protótipos com AI avatars/lipsync.\n- Pacotes UPM, package manager interno, ferramentas de Editor e padrões reutilizáveis.\n- Integração com APIs, WebSockets, conteúdo dinâmico e builds multiplataforma.",
+      "technologies": [
+        "Unity",
+        "WebGL",
+        "VR",
+        "AR",
+        "Colyseus",
+        "Photon",
+        "Agora.io",
+        "Vuzix",
+        "Addressables",
+        "UPM"
+      ],
+      "galleryImages": [],
+      "projectUrl": ""
+    },
+    {
+      "id": "mists-of-krakovia-launcher",
+      "title": "Mists of Krakovia + Launcher",
+      "year": 2025,
+      "tags": [
+        "Unity",
+        "MMORPG",
+        "Launcher",
+        "Updater"
+      ],
+      "imageUrl": "/Launcher - Mists of Krakovia/WXfNO2f.jpeg",
+      "description": "MMORPG de game jam e launcher profissional em Unity UI Toolkit com atualização automática.",
+      "longDescription": "Mists of Krakovia nasceu como um MMORPG de game jam, com foco em prototipagem rápida de mundo aberto, combate, progressão e networking.\n\n- Sistemas de combate, inventário, missões e progressão em escala reduzida.\n- Launcher em Unity UI Toolkit inspirado em launchers profissionais de MMORPG.\n- Verificação de versão via manifest.json, download de build, validação de arquivos, extração e substituição segura.\n- Hospedagem de manifestos e builds usando GitHub Pages e GitHub Releases.\n- Experiência prática com fluxo de atualização, fallback e entrega para usuários finais.",
+      "technologies": [
+        "Unity",
+        "C#",
+        "UI Toolkit",
+        "GitHub Pages",
+        "GitHub Releases",
+        "Multiplayer",
+        "Launcher"
+      ],
+      "galleryImages": [],
+      "projectUrl": ""
+    },
+    {
+      "id": "tray-tasker",
+      "title": "TRAY-TASKER",
+      "year": 2026,
+      "tags": [
+        "Desktop",
+        "Electron",
+        "Open Source"
+      ],
+      "imageUrl": "/TRAY-TASKER/2EkfACk.png",
+      "description": "Gerenciador leve de tarefas e rotinas para Windows que vive na system tray.",
+      "longDescription": "TRAY-TASKER foi criado para reduzir distrações durante o trabalho, mantendo rotinas acessíveis sem abrir o navegador.\n\n- Electron, React e TypeScript.\n- Integração com Windows Tray API.\n- Rotinas semanais, blocos de tempo e notificações automáticas.\n- Estrutura open source com separação clara entre UI, estado e integrações desktop.",
+      "technologies": [
+        "Electron",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Windows Tray API",
+        "Tailwind CSS"
+      ],
+      "galleryImages": [
+        "/TRAY-TASKER/jEudBke.png",
+        "/TRAY-TASKER/mcCFpVS.png"
+      ],
+      "projectUrl": "https://github.com/Thomasdfoz/TRAY-TASKER"
+    },
+    {
+      "id": "ai-web-experiments",
+      "title": "Experimentos AI & Web Products",
+      "year": 2026,
+      "tags": [
+        "React",
+        "AI",
+        "SaaS",
+        "Tools"
+      ],
+      "imageUrl": "/Global Feed/FbhudtH.png",
+      "description": "Projetos web com IA, SaaS, automações e ferramentas: DreamSelfie, Orbit, PDV, VN Factory e utilitários internos.",
+      "longDescription": "Linha de projetos voltada a produtos web, ferramentas e automações fora do ecossistema Unity.\n\n- DreamSelfie: geração de avatares com IA e interface mobile-first.\n- Orbit: dashboard SaaS para gestão de projetos, Kanban, CRM e produtividade.\n- PDV Moderno: ponto de venda com React, Supabase e Tailwind.\n- VN Factory: gerador de visual novels com Electron/React e integração local.\n- Programas de automação em Python e ferramentas auxiliares para fluxo de trabalho.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Electron",
+        "Supabase",
+        "Tailwind CSS",
+        "Python",
+        "AI APIs"
+      ],
+      "galleryImages": [
+        "/Global Feed/FbhudtH (1).png",
+        "/Orbit/5tgCOxz.png"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "dreamselfie",
+      "title": "DreamSelfie",
+      "year": 2026,
+      "tags": [
+        "React",
+        "AI",
+        "Web",
+        "Tools"
+      ],
+      "imageUrl": "/DreamSelfie/2xIYqx7.png",
+      "description": "Produto de geração de avatares com IA e fluxos de estilo mobile-first.",
+      "longDescription": "DreamSelfie é uma experiência de geração de avatar com IA, com fluxos responsivos, seleção de estilo e compartilhamento.\n\n- UI rápida com React e Tailwind para previews e workflows de imagem.\n- Criação de avatar IA com edição e suporte a exportação.\n- Layout mobile-friendly com cards de conteúdo modernos e interações.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "AI",
+        "Web"
+      ],
+      "galleryImages": [
+        "/DreamSelfie/F6pORxF.png",
+        "/DreamSelfie/jYlHdnN.png"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "orbit",
+      "title": "Orbit",
+      "year": 2026,
+      "tags": [
+        "React",
+        "SaaS",
+        "Dashboard",
+        "Productivity"
+      ],
+      "imageUrl": "/Orbit/5tgCOxz.png",
+      "description": "Dashboard SaaS para gestão de projetos, Kanban, CRM e visualização de produtividade.",
+      "longDescription": "Orbit é um dashboard de produtividade que mostra workflows de projetos, Kanban e análises.\n\n- Interface React com gráficos, tabelas e layout responsivo.\n- Rastreamento de projetos, gestão de tarefas e coordenação de equipe.\n- UI moderna para insights rápidos e navegação ágil.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "SaaS",
+        "Dashboard"
+      ],
+      "galleryImages": [
+        "/Orbit/Bz4ujcK.png",
+        "/Orbit/fA1aSWl.png"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "pdv-ponto-de-venda-moderno",
+      "title": "PDV - Ponto de Venda Moderno",
+      "year": 2026,
+      "tags": [
+        "React",
+        "POS",
+        "Retail",
+        "Frontend"
+      ],
+      "imageUrl": "/PDV - Ponto de Venda Moderno/3zL7Ude.png",
+      "description": "UI de ponto de venda moderno para workflows de varejo, inventário e checkout.",
+      "longDescription": "Este protótipo de PDV moderno inclui busca de produtos, gerenciamento de carrinho e checkout com interface limpa.\n\n- UI React para fluxos de caixa e cliente.\n- Controle de inventário e vendas projetado para checkout rápido.\n- Layout responsivo e hierarquia visual polida para operações rápidas.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "POS",
+        "Retail"
+      ],
+      "galleryImages": [
+        "/PDV - Ponto de Venda Moderno/4axDv1d.png",
+        "/PDV - Ponto de Venda Moderno/Kbw77E9.png"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "global-feed",
+      "title": "Global Feed",
+      "year": 2026,
+      "tags": [
+        "React",
+        "Social",
+        "Web",
+        "UI"
+      ],
+      "imageUrl": "/Global Feed/FbhudtH.png",
+      "description": "Interface de feed social moderna com previews de mídia e padrões de interação.",
+      "longDescription": "Global Feed é um conceito de interface web para descoberta de conteúdo e social, com cards, mídia e engajamento.\n\n- Layout responsivo de feed com previews e ações.\n- Tipografia rica e design focado em mídia.\n- Padrões de interação para descoberta de conteúdo rápida.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "UI",
+        "Web"
+      ],
+      "galleryImages": [
+        "/Global Feed/FbhudtH (1).png"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "mists-of-krakovia",
+      "title": "Mists of Krakovia",
+      "year": 2025,
+      "tags": [
+        "Unity",
+        "MMORPG",
+        "Game",
+        "Prototype"
+      ],
+      "imageUrl": "/Mists of Krakovia/bcpl1UP.jpeg",
+      "description": "Protótipo MMORPG com sistemas de mundo aberto, combate e progressão em Unity.",
+      "longDescription": "Mists of Krakovia é um protótipo de MMORPG de game jam com exploração, combate e progressão.\n\n- Sistemas de jogabilidade para combate, inventário e missões.\n- Design de mundo aberto com progressão de personagem.\n- Visuais Unity polidos e materiais de apresentação.",
+      "technologies": [
+        "Unity",
+        "C#",
+        "MMORPG",
+        "Prototype",
+        "Gameplay"
+      ],
+      "galleryImages": [
+        "/Mists of Krakovia/R29erY9.jpeg",
+        "/Mists of Krakovia/TR2dEuy.jpeg"
+      ],
+      "projectUrl": ""
+    }
+  ],
+  "contact": {
+    "title": "Vamos conversar",
+    "description": "Se você precisa de Unity, multiplayer, WebGL, simulação, Three.js ou backend para produtos interativos, posso ajudar a levar do protótipo até produção.",
+    "email": "eletronicgamesstudio@gmail.com",
+    "phone": "+55 45 99151-7779",
+    "location": "Foz do Iguaçu, Brasil",
+    "infoTitle": "Contato",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefone",
+    "locationLabel": "Localização",
+    "form": {
+      "nameLabel": "Nome",
+      "namePlaceholder": "Seu nome",
+      "emailLabel": "Email",
+      "emailPlaceholder": "seu@email.com",
+      "messageLabel": "Mensagem",
+      "messagePlaceholder": "Me conte um pouco sobre o projeto...",
+      "whatsappButton": "WhatsApp",
+      "emailButton": "Email",
+      "whatsappMessage": "Olá, meu nome é {name}. Meu email é {email}. {message}",
+      "emailSubject": "Contato pelo portfólio - {name}",
+      "emailBody": "Nome: {name}\r\nEmail: {email}\r\n\r\nMensagem:\r\n{message}"
+    }
+  },
+  "navbar": {
+    "about": "Sobre",
+    "work": "Projetos",
+    "contact": "Contato"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  },
+  "home": {
+    "title": "Projetos recentes",
+    "description": "Uma seleção curta de jogos, simuladores, viewers 3D, ferramentas e sistemas conectados mostrando execução ponta a ponta."
+  },
+  "labels": {
+    "skills": "Stack principal",
+    "viewProjects": "Ver projetos",
+    "projectNotFound": "Projeto não encontrado",
+    "backToWork": "Voltar aos projetos",
+    "back": "Voltar",
+    "technologies": "Tecnologias",
+    "viewProject": "Abrir projeto",
+    "viewProjectDetails": "Ver detalhes de",
+    "projectImage": "Imagem do projeto"
+  }
+}
