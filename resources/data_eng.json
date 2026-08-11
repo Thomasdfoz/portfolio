@@ -80,7 +80,7 @@
         "Online",
         "Backend"
       ],
-      "imageUrl": "projects/forklift-platform.png",
+      "imageUrl": "/Simulador de Empilhadeira/nnXtXAr.jpeg",
       "description": "Training simulation ecosystem with Unity, real-time backend, telemetry, and WebGL/standalone builds.",
       "longDescription": "Current 2026 project evolving from a forklift simulator into a modular training simulation platform.\n\n- Unity client with forklift physics, interactive exercises, checkpoints, HUD, and execution flow.\n- Modular architecture across Simulator Core, Simulator Assets, and Manager Studio.\n- Addressables, ScriptableObjects, and authoring systems for scenes, vehicles, cargo, and exercises.\n- WebSocket/Socket.IO integration for remote commands, telemetry, and real-time synchronization.\n- NestJS backend with JWT, Redis, MongoDB/MySQL, and simulation data persistence.\n- WebGL/standalone builds and multi-environment delivery flow.",
       "technologies": [
@@ -96,9 +96,7 @@
         "WebGL"
       ],
       "galleryImages": [
-        "projects/forklift-platform.png",
-        "projects/forklift-platform.png",
-        "projects/forklift-platform.png"
+        "/Simulador de Empilhadeira/gzNdzKD.jpeg"
       ],
       "projectUrl": ""
     },
@@ -112,7 +110,7 @@
         "Web 3D",
         "Architecture"
       ],
-      "imageUrl": "projects/medroom-anatomy-web.png",
+      "imageUrl": "/MedRoom Anatomy Web/Captura de tela 2026-08-11 181246.png",
       "description": "Medical 3D viewer with Three.js, Next.js, and a plugin-engine architecture for anatomical GLB models.",
       "longDescription": "Web platform for exploring medical 3D anatomy models such as Lucy, Max, heart, and teeth.\n\n- Next.js, React, TypeScript, Three.js, react-three-fiber, and drei.\n- GLB model pipeline with Draco, KTX2/Basis, and Meshopt.\n- Plugin Engine architecture with ViewerCore, SceneEngine, EventBus, BundleLoader, and isolated plugins.\n- 1:1 manifests between GLB and JSON, mesh coverage validation, and per-model i18n.\n- Clear separation between pure TypeScript engine code and React UI.\n- Related experiments in MedRoom Mobile, Unity WebViewer, and Three.js prototypes.",
       "technologies": [
@@ -128,9 +126,8 @@
         "i18n"
       ],
       "galleryImages": [
-        "projects/medroom-anatomy-web.png",
-        "projects/medroom-anatomy-web.png",
-        "projects/medroom-anatomy-web.png"
+        "/MedRoom Anatomy Web/Captura de tela 2026-08-11 181254.png",
+        "/MedRoom Anatomy Web/Captura de tela 2026-08-11 181310.png"
       ],
       "projectUrl": ""
     },
@@ -144,7 +141,7 @@
         "Roguelike",
         "Steam"
       ],
-      "imageUrl": "projects/dungebra.png",
+      "imageUrl": "/Dungebra/Image Sequence_233_0001.jpg",
       "description": "Unity 6 roguelike deckbuilder with mathematical combat, deterministic events, localization, and Steam-oriented structure.",
       "longDescription": "Dungebra is a fantasy roguelike deckbuilder focused on transparent math, synergies, and execution order.\n\n- Playable vertical slice with run loop, combat, shop, heroes, cards, items, and enemies.\n- Deterministic event system for card resolution, stacks, multipliers, resources, and end-of-combat flow.\n- Unity 6 structure with Addressables, localization, Input System, and content-ready organization.\n- Data-driven technical design to make balancing, new cards, and new mechanics easier.\n- GDD and visual briefing documentation for collaboration with artists and UI work.",
       "technologies": [
@@ -157,11 +154,12 @@
         "Game Design"
       ],
       "galleryImages": [
-        "projects/dungebra.png",
-        "projects/dungebra.png",
-        "projects/dungebra.png"
+        "/Dungebra/Image Sequence_242_0001.jpg",
+        "/Dungebra/Image Sequence_244_0001.jpg",
+        "/Dungebra/Image Sequence_254_0001.jpg",
+        "/Dungebra/Image Sequence_259_0001.jpg"
       ],
-      "projectUrl": ""
+      "projectUrl": "https://store.steampowered.com/app/4841590/Dungebra/"
     },
     {
       "id": "battle-of-herone",
@@ -173,7 +171,7 @@
         "Multiplayer",
         "Steam"
       ],
-      "imageUrl": "projects/battle-of-herone.png",
+      "imageUrl": "/Battle of herone/vMBkXXM.png",
       "description": "Steam-published tactical card strategy game with asynchronous multiplayer through API and database.",
       "longDescription": "Battle of Herone is a strategy game focused on tactical battles where players use cards to summon units and control the board.\n\n- Gameplay, card systems, economy, progression, maps, UI, and internal tools built from the ground up.\n- Asynchronous multiplayer based on API and database flows, avoiding the need for real-time dedicated servers.\n- Unit systems with AI, movement, range, target priority, and battle resolution.\n- Steamworks integration and commercial release on Steam.\n- Unity editor tooling for content creation, balancing, and maintenance.",
       "technologies": [
@@ -186,9 +184,8 @@
         "Async Multiplayer"
       ],
       "galleryImages": [
-        "projects/battle-of-herone.png",
-        "projects/battle-of-herone.png",
-        "projects/battle-of-herone.png"
+        "/Battle of herone/T1E08sM.gif",
+        "/Battle of herone/QbdlmUo.gif"
       ],
       "projectUrl": "https://store.steampowered.com/app/4015690/Battle_of_Herone/"
     },
@@ -202,7 +199,7 @@
         "Metaverse",
         "Enterprise"
       ],
-      "imageUrl": "projects/vrglass-connected-xr.png",
+      "imageUrl": "/VRGlass/vrglass-logo-CaVUkrPo.png",
       "description": "Enterprise Unity projects for WebGL, VR, AR, metaverse, Vuzix, multiscreen experiences, and internal tools.",
       "longDescription": "A set of projects developed at VRGlass and related ecosystems, focused on connected experiences and reusable technical foundations.\n\n- VirtualTown / modular metaverse with WebGL/VR, Colyseus, Photon, and Addressables.\n- Vuzix remote assistance with Agora.io, chat, video, AR streaming, and industrial workflows.\n- AviaXR, Showmaker Multiscreen, Planogram, WebGL translators, and prototypes with AI avatars/lipsync.\n- UPM packages, internal package manager, editor tools, and reusable patterns.\n- API integration, WebSockets, dynamic content, and multi-platform builds.",
       "technologies": [
@@ -217,11 +214,7 @@
         "Addressables",
         "UPM"
       ],
-      "galleryImages": [
-        "projects/vrglass-connected-xr.png",
-        "projects/vrglass-connected-xr.png",
-        "projects/vrglass-connected-xr.png"
-      ],
+      "galleryImages": [],
       "projectUrl": ""
     },
     {
@@ -234,7 +227,7 @@
         "Launcher",
         "Updater"
       ],
-      "imageUrl": "projects/mists-of-krakovia-launcher.png",
+      "imageUrl": "/Launcher - Mists of Krakovia/WXfNO2f.jpeg",
       "description": "Game jam MMORPG plus a professional Unity UI Toolkit launcher with automatic updates.",
       "longDescription": "Mists of Krakovia started as a game jam MMORPG, focused on rapid prototyping of an open world, combat, progression, and networking.\n\n- Combat, inventory, quests, and progression systems at a compact MMORPG scale.\n- Unity UI Toolkit launcher inspired by professional MMORPG launchers.\n- Version checks through manifest.json, build download, file validation, extraction, and safer replacement flow.\n- Manifest and build hosting using GitHub Pages and GitHub Releases.\n- Practical experience with updater flows, fallback handling, and delivery to end users.",
       "technologies": [
@@ -246,11 +239,7 @@
         "Multiplayer",
         "Launcher"
       ],
-      "galleryImages": [
-        "projects/mists-of-krakovia-launcher.png",
-        "projects/mists-of-krakovia-launcher.png",
-        "projects/mists-of-krakovia-launcher.png"
-      ],
+      "galleryImages": [],
       "projectUrl": ""
     },
     {
@@ -262,7 +251,7 @@
         "Electron",
         "Open Source"
       ],
-      "imageUrl": "projects/tray-tasker.png",
+      "imageUrl": "/TRAY-TASKER/2EkfACk.png",
       "description": "Lightweight Windows task and routine manager that lives in the system tray.",
       "longDescription": "TRAY-TASKER was created to reduce distractions during work, keeping routines accessible without opening the browser.\n\n- Electron, React, and TypeScript.\n- Windows Tray API integration.\n- Weekly routines, time blocks, and automatic notifications.\n- Open-source structure with clear separation between UI, state, and desktop integrations.",
       "technologies": [
@@ -274,9 +263,8 @@
         "Tailwind CSS"
       ],
       "galleryImages": [
-        "projects/tray-tasker.png",
-        "projects/tray-tasker.png",
-        "projects/tray-tasker.png"
+        "/TRAY-TASKER/jEudBke.png",
+        "/TRAY-TASKER/mcCFpVS.png"
       ],
       "projectUrl": "https://github.com/Thomasdfoz/TRAY-TASKER"
     },
@@ -290,7 +278,7 @@
         "SaaS",
         "Tools"
       ],
-      "imageUrl": "projects/ai-web-experiments.png",
+      "imageUrl": "/Global Feed/FbhudtH.png",
       "description": "Web experiments with AI, SaaS, automation, and tools: DreamSelfie, Orbit, POS, VN Factory, and internal automations.",
       "longDescription": "A line of projects focused on web products, tools, and automations beyond the Unity ecosystem.\n\n- DreamSelfie: AI avatar generation with a mobile-first interface.\n- Orbit: SaaS dashboard for project management, Kanban, CRM, and productivity.\n- Modern POS: point-of-sale system with React, Supabase, and Tailwind.\n- VN Factory: visual novel generator with Electron/React and local integration.\n- Python automation programs and helper tools for workflow acceleration.",
       "technologies": [
@@ -304,9 +292,137 @@
         "AI APIs"
       ],
       "galleryImages": [
-        "projects/ai-web-experiments.png",
-        "projects/ai-web-experiments.png",
-        "projects/ai-web-experiments.png"
+        "/Global Feed/FbhudtH (1).png",
+        "/Orbit/5tgCOxz.png"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "dreamselfie",
+      "title": "DreamSelfie",
+      "year": 2026,
+      "tags": [
+        "React",
+        "AI",
+        "Web",
+        "Tools"
+      ],
+      "imageUrl": "/DreamSelfie/2xIYqx7.png",
+      "description": "AI avatar generation product with a mobile-first UI and image styling workflows.",
+      "longDescription": "DreamSelfie is an AI-powered avatar generation experience with responsive flows, style selection, and sharing.\n\n- React and Tailwind UI for fast previews and image workflows.\n- AI-driven avatar creation with editing and export support.\n- Mobile-friendly layout with modern content cards and interactions.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "AI",
+        "Web"
+      ],
+      "galleryImages": [
+        "/DreamSelfie/F6pORxF.png",
+        "/DreamSelfie/jYlHdnN.png"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "orbit",
+      "title": "Orbit",
+      "year": 2026,
+      "tags": [
+        "React",
+        "SaaS",
+        "Dashboard",
+        "Productivity"
+      ],
+      "imageUrl": "/Orbit/5tgCOxz.png",
+      "description": "SaaS dashboard for project management, Kanban, CRM, and productivity visualization.",
+      "longDescription": "Orbit is a productivity dashboard showcasing project workflows, Kanban boards, and analytics.\n\n- React-based interface with charts, tables, and responsive layouts.\n- Project tracking, task management, and team coordination features.\n- Modern SaaS UI designed for quick insights and fast navigation.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "SaaS",
+        "Dashboard"
+      ],
+      "galleryImages": [
+        "/Orbit/Bz4ujcK.png",
+        "/Orbit/fA1aSWl.png"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "pdv-ponto-de-venda-moderno",
+      "title": "PDV - Ponto de Venda Moderno",
+      "year": 2026,
+      "tags": [
+        "React",
+        "POS",
+        "Retail",
+        "Frontend"
+      ],
+      "imageUrl": "/PDV - Ponto de Venda Moderno/3zL7Ude.png",
+      "description": "Modern point-of-sale UI built for retail workflows, inventory, and checkout management.",
+      "longDescription": "This modern POS prototype includes product search, cart management, and checkout workflows with a clean retail interface.\n\n- React-driven UI for cashier and customer-facing flows.\n- Inventory and sales controls designed for easy checkout.\n- Responsive layout and polished visual hierarchy for fast operations.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "POS",
+        "Retail"
+      ],
+      "galleryImages": [
+        "/PDV - Ponto de Venda Moderno/4axDv1d.png",
+        "/PDV - Ponto de Venda Moderno/Kbw77E9.png"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "global-feed",
+      "title": "Global Feed",
+      "year": 2026,
+      "tags": [
+        "React",
+        "Social",
+        "Web",
+        "UI"
+      ],
+      "imageUrl": "/Global Feed/FbhudtH.png",
+      "description": "A modern social feed interface with rich media previews and interaction patterns.",
+      "longDescription": "Global Feed is a web interface concept for social and content discovery, featuring cards, media, and engagement flows.\n\n- Responsive feed layout with post previews and actions.\n- Rich typography and media-first design for better browsing.\n- Interaction patterns designed for fast content discovery.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "UI",
+        "Web"
+      ],
+      "galleryImages": [
+        "/Global Feed/FbhudtH (1).png"
+      ],
+      "projectUrl": ""
+    },
+    {
+      "id": "mists-of-krakovia",
+      "title": "Mists of Krakovia",
+      "year": 2025,
+      "tags": [
+        "Unity",
+        "MMORPG",
+        "Game",
+        "Prototype"
+      ],
+      "imageUrl": "/Mists of Krakovia/bcpl1UP.jpeg",
+      "description": "MMORPG prototype with open-world systems, combat, and progression in Unity.",
+      "longDescription": "Mists of Krakovia is a game jam MMORPG prototype featuring exploration, combat, and progression systems.\n\n- Prototype gameplay systems for combat, inventory, and quests.\n- Open-world design with character progression.\n- Polished Unity visuals and prototype presentation assets.",
+      "technologies": [
+        "Unity",
+        "C#",
+        "MMORPG",
+        "Prototype",
+        "Gameplay"
+      ],
+      "galleryImages": [
+        "/Mists of Krakovia/R29erY9.jpeg",
+        "/Mists of Krakovia/TR2dEuy.jpeg"
       ],
       "projectUrl": ""
     }

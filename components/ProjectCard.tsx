@@ -10,9 +10,9 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   const { data } = useLanguage();
-  const imageSrc = project.imageUrl.startsWith('http') || project.imageUrl.startsWith('/')
+  const imageSrc = project.imageUrl.startsWith('http')
     ? project.imageUrl
-    : `${import.meta.env.BASE_URL}${project.imageUrl}`;
+    : encodeURI(`${import.meta.env.BASE_URL}${project.imageUrl.replace(/^\/+/, '')}`);
 
   return (
     <Link
@@ -35,6 +35,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           <div className="flex flex-wrap gap-2">
             {project.technologies.slice(0, 4).map(tech => <span key={tech} className="text-xs text-gray-500 dark:text-gray-500">{tech}</span>)}
           </div>
+          {project.projectUrl && (
+            <div className="mt-4">
+              <button
+                onClick={(e) => { e.stopPropagation(); e.preventDefault(); window.open(project.projectUrl, '_blank', 'noopener,noreferrer'); }}
+                className="inline-flex items-center gap-2 rounded-md bg-indigo-600 px-3 py-1 text-sm font-medium text-white hover:bg-indigo-700"
+                aria-label={`${data.labels.viewProject} ${project.title}`}
+              >
+                {data.labels.viewProject}
+                <ArrowUpRight className="h-4 w-4" />
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </Link>

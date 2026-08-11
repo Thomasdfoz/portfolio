@@ -5,9 +5,9 @@ import { ArrowLeft, Calendar, ExternalLink, Tag } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import ImageModal from '../components/ImageModal';
 
-const resolveAsset = (src: string) => src.startsWith('http') || src.startsWith('/')
+const resolveAsset = (src: string) => src.startsWith('http')
   ? src
-  : `${import.meta.env.BASE_URL}${src}`;
+  : encodeURI(`${import.meta.env.BASE_URL}${src.replace(/^\/+/, '')}`);
 
 const renderDescription = (text: string) => text.split('\n\n').map((block, index) => {
   const lines = block.split('\n').filter(Boolean);
