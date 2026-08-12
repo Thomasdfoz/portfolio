@@ -17,8 +17,8 @@ const AboutPage: React.FC = () => {
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.5 }} className="container mx-auto px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
       <section className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
-        <div className="overflow-hidden rounded-lg border border-gray-200 bg-gray-100 dark:border-gray-800 dark:bg-gray-900 lg:max-w-[30%] max-w-[320px] mx-auto">
-          <img src={avatarSrc} alt={profile.name} className="w-full h-auto object-cover" />
+        <div className="overflow-hidden rounded-full border border-gray-200 bg-gray-100 dark:border-gray-800 dark:bg-gray-900 lg:max-w-[260px] max-w-[260px] aspect-square mx-auto">
+          <img src={avatarSrc} alt={profile.name} className="w-full h-full object-cover" />
         </div>
         <div>
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.18em] text-indigo-600 dark:text-indigo-300">{language === 'br' ? 'Desenvolvedor de sistemas interativos' : 'Interactive systems developer'}</p>
