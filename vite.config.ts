@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
   const basePath = env.VITE_BASE || '/portfolio/';
 
   return {
-    base: basePath, // IMPORTANT: change '/portfolio/' to '/<your-repo-name>/' or set VITE_BASE
+    base: mode === 'development' ? '/' : basePath,
     server: {
       port: 3000,
       host: '0.0.0.0',
